@@ -35,6 +35,7 @@ keterangan :
 2. kurang lebih parameter sama kaya yang direquest
 
 # Folder Structure :
+Struktur folder nya saya niru konsep laravel. harusnya mirip-mirip
 
 - app => disini Code Base, kode respon distandarkan dari sini semua
     - Autload.php
@@ -46,16 +47,16 @@ keterangan :
     - Init.php 
     - Ticket.php 
 - controllers => controller ditaruh disini semua, nanti daftarin di routes
-    
+    - TicketController.php
 - migrate => tempate migrate sql file
     - init.sql 
-
 - models => tempat model database dan queryan berdasarkan table/model
-
+    - Event.php
+    - Ticket.php
 - routes => tempat bikin routes dari controllers (khusus api)
-
-console.php => console running dari sini
-index.php => api buka running dari sini
+    - api.php
+- console.php => console running dari sini
+- index.php => api buka running dari sini
 
 
 
